@@ -17,7 +17,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/responsive-website.git
+https://github.com/saivishnuadabala/w3Template2.git
 Navigate to the project directory:
 
 bash
