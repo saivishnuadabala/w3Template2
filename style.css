@@ -1,4 +1,7 @@
 
+.h2,.h3,.h4{
+    display: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -181,7 +184,7 @@ span{
     left: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-@media screen and (min-width: 600px) and (max-width: 992px) {
+ @media screen and (min-width: 600px) and (max-width: 992px) {
     .container2 {
         grid-template-columns: repeat(2,1fr); 
     }
@@ -194,8 +197,9 @@ span{
         top: 50%;
         left: 40%;
         z-index: 1;
-         
-    
+    }
+    .h2,.h3,.h4{
+        display: block;
     }
 }
 
@@ -213,7 +217,9 @@ span{
         top: 50%;
         left: 40%;
         z-index: 1;
-    
+    }
+    .h2,.h3,.h4{
+        display: block;
     }
 }
 @media screen and (min-width:590px) and (max-width:602px) {
@@ -222,4 +228,4 @@ span{
         justify-content: center;
         align-items: center;
     }
-}
+} 
